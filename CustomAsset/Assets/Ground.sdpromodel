@@ -1,0 +1,13 @@
+!ProceduralModelAsset
+Id: 2ca3a965-1eb2-4c54-aa79-e955e7e4544c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !PlaneProceduralModel
+    Size: {X: 10.0, Y: 10.0}
+    Tessellation: {X: 1, Y: 1}
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    NumberOfTextureCoordinates: 10
+    MaterialInstance:
+        Material: b901e215-e57d-44e5-9207-0c4f2233f999:Ground Material
