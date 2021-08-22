@@ -1,4 +1,3 @@
-﻿using Stride.Assets;
 using Stride.Core;
 using Stride.Core.Assets;
 using Stride.Core.Assets.Compiler;
@@ -33,10 +32,10 @@ namespace CustomAsset
     [DataContract("ObjectAsset")]
     [AssetDescription(FileExtension, AllowArchetype = false)]
     [AssetContentType(typeof(Object))]
-    [AssetFormatVersion(StrideConfig.PackageName, CurrentVersion, "2.0.0.0")]
+    [AssetFormatVersion(nameof(CustomAsset), CurrentVersion, "1.0.0.0")]
     public sealed class ObjectAsset : Asset
     {
-        private const string CurrentVersion = "2.0.0.0";
+        private const string CurrentVersion = "1.0.0.0";
         public const string FileExtension = ".sdobj";
 
         // description of an asset which after compilation will result in the runtime object
